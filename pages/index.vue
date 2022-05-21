@@ -15,7 +15,7 @@
       <li>Use decrement to zero to see how action groups work</li>
       <li>
         Click
-        <b>Test Errors</b> and immediately after
+        <b>Test Errors2</b> and immediately after
         <b>increment</b> the store
       </li>
       <li>While the dev server is running, try changing counter.changeMe, adding, and removing new state properties</li>
