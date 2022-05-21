@@ -9,12 +9,12 @@ describe('Pinia demo with counters', () => {
 
   it('works', () => {
     cy.get('[data-testid=counter-values]')
-      .should('contain.text', 'Counter: 2. Double: 4')
+      .should('contain.text', 'Counter: 20. Double: 40')
       .wait(500) // wait for the JS to load
       .get('[data-testid=increment]')
       .click()
       .get('[data-testid=counter-values]')
-      .should('contain.text', 'Counter: 3. Double: 6')
+      .should('contain.text', 'Counter: 21. Double: 42')
       .get('[data-testid=increment]')
       .click()
   })
